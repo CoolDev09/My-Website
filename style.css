@@ -1,0 +1,85 @@
+body{
+background: linear-gradient(#c516ff, #2cc3ff);
+background-repeat: no-repeat;
+background-attachment: fixed;
+color:#000000
+}
+
+#xlabel {
+font-size: 40px
+}
+
+#ylabel {
+font-size: 40px
+}
+
+#zlabel {
+font-size: 40px
+}
+
+#clock {
+float:left
+}
+
+#Home {
+float: left
+}
+
+#dice-roller {
+float: left
+}
+
+#games {
+float: left
+}
+
+#Search {
+float: left
+}
+
+#current-time {
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: 000;
+font-size: 90px;
+font-weight: 600;
+letter-spacing: 3px;
+}
+
+
+#searchResults button {
+    display: block;
+    margin-bottom: 5px; /* Adjust spacing between buttons */
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #4d524d; /* Green background color */
+    color: #2cc3ff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#searchResults button:hover {
+    background-color: #c516ff; /* Darker green color on hover */
+}
+
+#searchResults button:disabled {
+    background-color: #dddddd; /* Gray background color for disabled button */
+    cursor: not-allowed;
+}
+
+
+#searchInput {
+    width: 300px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+#searchInput:focus {
+    outline: none; 
+    border-color: #0040ff; 
+}
